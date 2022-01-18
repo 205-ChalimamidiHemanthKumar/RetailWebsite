@@ -1,0 +1,242 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - HemanthCommerce - A simple, cross platform, modularized ecommerce system built on .NET Core</title>
+    <meta name="keywords" content="netcore, modular, ecommerce, aspnetcore, shopping cart, cross-platform, free" />
+    <meta name="description" content="SimplCommere is the first ecommerce system built on .NET Core. It is free, simple to use and easy to customize. With its modular architecture you can easily develop your own modules for your own business or install modules on marketplace. HemanthCommerce can be deployed in docker containers, Windows, Linux and in any cloud providers." />
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/js/modernizr.custom.js"></script>
+
+</head>
+<body>
+    <div class="content">
+        <nav id="menu" class="navbar navbar-dark navbar-expand-lg on">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img src="~/lib/technology-app-development-wireless-e-commerce-1024x683 (1).jpg" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar-nav mr-auto">
+                        <li><a href="/Partners">Partners</a></li>
+                        <li><a target="_blank" href="https://docs.simplcommerce.com" class="page-scroll">Documentation</a></li>
+                        <li><a target="_blank" href="https://github.com/simplcommerce/SimplCommerce" class="page-scroll">GitHub</a></li>
+                    </ul>
+
+
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Identity/Account/Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Identity/Account/Login">Login</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+
+        <!-- Header -->
+        <header class="text-center" name="home">
+            <div class="intro-text">
+                <h1><span class="color">Hemanth</span>Commerce</h1>
+                <p>A simple, cross platform, modularized ecommerce system built on .NET Core</p>
+                <div class="clearfix"></div>
+            </div>
+        </header>
+
+        <!-- Why Section -->
+        <div id="why-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Why HemanthCommerce?</h2>
+                    <hr>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Cross Platform</h4>
+                        <p>Docker, Windows, Linux, Mac. Microsoft SQL Server, PostgreSQL, MySQL, SQLite</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Modular</h4>
+                        <p>The application is divided into many self contained modules</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Free and Open Source</h4>
+                        <p>HemanthCommerce is free and fully open source on </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features Section -->
+        <div id="features-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>HemanthCommerce features</h2>
+                    <hr>
+                </div>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-braille"></i>
+                        <h4>Rich product features</h4>
+                        <p>Product variations, Product attributes, Product comparision</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-handshake-o"></i>
+                        <h4>Multi-vendors</h4>
+                        <p>Allow other vendors to sell their products on your site</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-camera"></i>
+                        <h4>Theming</h4>
+                        <p>Simply create your own theme or download a theme in HemanthCommerce marketplace</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-bullseye"></i>
+                        <h4>Localization</h4>
+                        <p>It's very easy to translate to your own language</p>
+                    </div>
+                </div>
+                <div class="space2"></div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-credit-card"></i>
+                        <h4>Payment</h4>
+                        <p>Stripe, Paypal, Braintree, Cashfree, MoMo, COD</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-truck"></i>
+                        <h4>Shipping</h4>
+                        <p>Free shipping, shipping price configuration base on delivery adddress</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-gift"></i>
+                        <h4>Coupon</h4>
+                        <p>Engage your customers with coupons and boost your sales</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 feature">
+                        <i class="fa fa-percent"></i>
+                        <h4>Tax</h4>
+                        <p>Different tax per country, state or zipcode</p>
+                    </div>
+                </div>
+                <div class="space2"></div>
+                <div class="row">
+                    <div class="col-md-12 feature">
+                        <i class="fa fa-exchange"></i>
+                        <h4>Open for integration</h4>
+                        <p>Having OAuth 2.0/OpenID Connect built-in and a lot of management APIs, HemanthCommerce offer a fexible way to integrate with your line of business applications. Discover HemanthCommerce's APIs  <a target="_blank" href="https://demo.simplcommerce.com/swagger/index.html">here</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Demo Section -->
+        <div id="demo-section">
+            <div class="container">
+                <!-- Container -->
+                <div class="section-title">
+                    <h2>Try HemanthCommerce online demo</h2>
+                    <hr>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="portfolio-items">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <a href="http://demo.simplcommerce.com">
+                                        <div class="hover-text">
+                                            <h4>View Store front</h4>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <img src="~/lib/7d868097-58a5-43f8-a882-6d7872345fe7.jpg" class="img-fluid" alt="HemanthCommerce">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <a href="http://demo.simplcommerce.com/admin">
+                                        <div class="hover-text">
+                                            <h4>View Administration</h4>
+                                            <small>Login: imhemanth5@gmail.com./ 1qazZAQ!</small>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <img src="~/lib/download (1).jpg" class="img-fluid" alt="HemanthCommerce Admin">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="footer">
+        <div class="container text-right">
+            <p>&copy; 2022 HemanthCommerce. Theme by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a>. For any support please contact me via email: imhemanth5@com</p>
+        </div>
+    </div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="/js/jquery.isotope.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+
+    <script>
+        $('#menu').removeClass('on');
+        $(window).bind('scroll', function () {
+            var navHeight = $(window).height() - 500;
+            if ($(window).scrollTop() > navHeight) {
+                $('#menu').addClass('on');
+            } else {
+                $('#menu').removeClass('on');
+            }
+        });
+
+        $('body').scrollspy({
+            target: '#menu',
+            offset: 80
+        })
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-78132767-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+</html>
+
